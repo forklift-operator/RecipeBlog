@@ -1,0 +1,7 @@
+.Enter {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    height:40%;
+    background-color: aqua;
+}

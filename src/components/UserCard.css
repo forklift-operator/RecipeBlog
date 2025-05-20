@@ -1,0 +1,27 @@
+.UserCard {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    height: 150px;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+    box-sizing: border-box;
+}
+
+.UserCard h3,
+.UserCard p {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.UserCard img {
+    height: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.UserCard .info {
+    width: 100%;
+}

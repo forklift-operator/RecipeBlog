@@ -1,0 +1,30 @@
+
+
+.ExploreRecipes form{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+    height: 40px;
+    margin: 0;
+}
+
+.ExploreRecipes input {
+    width: 100%;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-size: 1rem;
+}
+
+.ExploreRecipes form button {
+    border-radius: 50px;
+    font-size: 1rem;
+    padding: 10px 20px;
+    color: white;
+    background-color: rgb(26, 118, 255);
+    transition: all 0.3s;
+}
+
+.ExploreRecipes form button:hover {
+    background-color: rgb(12, 87, 198);
+}

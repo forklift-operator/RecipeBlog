@@ -1,0 +1,33 @@
+.RecipePage{
+    overflow-y: hidden;
+}
+
+.RecipePage p {
+    margin: 0;
+}
+
+.RecipePage .overview {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 20px;
+}
+
+.RecipePage .overview .products {
+    flex: 1;
+}
+.RecipePage .overview .products h3{
+    margin: 0;
+    margin-bottom: 10px;
+}
+.RecipePage .overview .products ul{
+    margin: 0;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.RecipePage .overview img{
+    width: 50%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
